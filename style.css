@@ -22,3 +22,33 @@ nav li{
 header{
   max-width: 901px;
 }
+#printer-image{
+  display: inline-block;
+  float: right;
+}
+main{
+  max-width: 901px;
+}
+body{
+  max-width: 800px;
+}
+#main-paragraph{
+  text-indent: 2em;
+}
+#column-1{
+  position: absolute;
+  top: 1100px;
+  left: 100px;
+  list-style-type: square;
+}
+#column-2{
+  position: absolute;
+  top: 1100px;
+  left: 500px;
+  list-style-type: square;
+}
+button{
+  width: 100px;
+  background: #AA3C30;
+}
+
