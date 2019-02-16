@@ -1,0 +1,24 @@
+*{
+
+}
+h2{
+  font-family: cursive;
+  display:inline;
+  padding: 0px;
+}
+#title{
+  color: gray;
+  font-family: sans-serif;
+  padding:0px;
+}
+#header-block{
+  display: inline-block;
+  line-height: 0px;
+}
+nav li{
+  display:inline-block;
+  float: right;
+}
+header{
+  max-width: 901px;
+}
