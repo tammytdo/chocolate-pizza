@@ -1,11 +1,13 @@
-* {
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Yellowtail&display=swap');
 
-/* body {
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
   color: rgb(38, 38, 38);
   font-family: serif;
-} */
+}
 
 /* strong {
   font-family: 'Oswald';
@@ -19,12 +21,6 @@
   font-weight: bold;
 } */
 
-/* h2 {
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-bottom: .5em;
-} */
-
 /* a.primary {
   background: #ba6f57;
   color: #ffffff;
@@ -36,13 +32,15 @@
 } */
 
 /* center to 900px */
-/* body header {
+/* #logo {
+  margin-top: 2.2em;
+  margin-right: .2em;
   font-size: 1em;
 } */
 
-/* body > header, main, footer {
+/* body {
   margin: auto;
-  width: 900px;
+  width: 680px;
 } */
 
 /* .deck.separator-top {
@@ -53,11 +51,45 @@
 } */
 
 /* Header */
-/* body > header {
-  color: rgb(38, 38, 38);
-  overflow: hidden;
-  position: relative;
-} */
+header {
+  color: #262626;
+  height: 60px;
+  margin-bottom: 60px;
+  padding: 20px 0;
+}
+
+header img, header section, header nav {
+  display: inline-block;
+}
+
+header > img {
+  margin-right: 7px;
+}
+
+header nav {
+  float: right;
+  padding: 13px 0;
+}
+
+h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.3em;
+}
+
+h6 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: .2em;
+  margin-left: 5px;
+}
+
+header li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+header li:nth-child(6) {
+margin-right: 12px;
+}
 
 /* body > header > .title {
   display: block;
@@ -194,9 +226,10 @@ body > header > nav > ul {
 } */
 
 /* .recipe input[type=checkbox] {
-  vertical-align: : middle;
+  vertical-align: middle;
 } */
 
-/* :checked + span {
+/* :checked + label + span {
   text-decoration: line-through;
+  color: purple;
 } */
