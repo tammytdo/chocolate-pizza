@@ -1,52 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Open+Sans+Condensed:300|Teko|Yellowtail&display=swap');
 
-@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
-
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap');
-
-
-/* * {
-  box-sizing: border-box;
-} */
-
+/* Overall */
 body {
   color: rgb(38, 38, 38);
   font-family: serif;
 }
 
-/* strong {
-  font-family: 'Oswald';
-  text-transform: uppercase;
-} */
-
-/* a.primary {
-  background: #ba6f57;
-  color: #ffffff;
-  display: inline-block;
-  line-height: 50px;
-  text-align: center;
-  text-decoration: none;
-  width: 150px;
-} */
-
-/* center to 900px */
-/* #logo {
-  margin-top: 2.2em;
-  margin-right: .2em;
-  font-size: 1em;
-} */
-
 header, main, footer {
   margin: auto;
   width: 750px;
 }
-
-/* .deck.separator-top {
- border-top: 1em solid #ffffff;
- border-image: linear-gradient(45deg, #cccccc, #ffffff)
- padding-top: 1.5em;
- margin-top: 2.5em;
-} */
 
 /* Header */
 header {
@@ -122,41 +85,28 @@ p {
   margin-bottom: 40px;
 }
 
-#list {
+/* Recipe card */
+#lined-paper-img {
   width: 100%;
 }
 
-/* body > header > .title {
-  display: block;
-  font-family: 'Yellowtail', cursive;
-  font-size: 2em;
-} */
+#recipe-text {
+  font-family: sans-serif;
+  column-count: 2;
+  font-size: 1.1em;
+  width: 90%;
+  margin-left: 3em;
+  overflow: hidden;
+}
 
-/* body > header strong {
-  font-size: .75em;
-} */
+#recipe-text input[type=checkbox] {
+  vertical-align: middle;
+}
 
-/* body > header > img {
-  float: left;
-  margin-right: 1em;
-} */
-
-/* body > header > nav,
-body > header > nav > ul {
-  float: right;
-  position: relative;
-  top: -6px;
-} */
-
-/* body > header > nav > ul:first-child {
-  margin-left: 1em;
-} */
-
-/* nav li {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-} */
+input:checked + span {
+  text-decoration: line-through;
+  color: purple;
+}
 
 /* Footer */
 
@@ -233,38 +183,4 @@ body > header > nav > ul {
   right: 0;
   top: 0;
   z-index: -1;
-} */
-
-/* Recipe card */
-/* .recipe {
-  column-count: 2;
-  font-family: 'Patrick Hand SC', cursive;
-  font-size: 1.6em;
-  overflow: hidden;
-  padding: .5em 1.5em;
-} */
-
-/* .recipe li {
-  margin-bottom: .5em;
-} */
-
-/* .recipe span {
-  display: inline-block;
-  vertical-align: top;
-  white-space: normal;
-} */
-
-/* .recipe label {
-  margin: 0;
-  padding: 0;
-  white-space: nowrap;
-} */
-
-/* .recipe input[type=checkbox] {
-  vertical-align: middle;
-} */
-
-/* :checked + label + span {
-  text-decoration: line-through;
-  color: purple;
 } */
