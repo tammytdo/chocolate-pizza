@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Yellowtail&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+
+
 /* * {
   box-sizing: border-box;
 } */
@@ -12,13 +15,6 @@ body {
 /* strong {
   font-family: 'Oswald';
   text-transform: uppercase;
-} */
-
-/* h1 {
-  color: rgb(38, 38, 38);
-  font-family: 'Oswald';
-  font-size: 3em;
-  font-weight: bold;
 } */
 
 /* a.primary {
@@ -38,7 +34,7 @@ body {
   font-size: 1em;
 } */
 
-/* body {
+/* header, main, footer {
   margin: auto;
   width: 680px;
 } */
@@ -54,8 +50,8 @@ body {
 header {
   color: #262626;
   height: 60px;
-  margin-bottom: 60px;
-  padding: 20px 0;
+  margin-bottom: 20px;
+  padding: 35px 0;
 }
 
 header img, header section, header nav {
@@ -73,12 +69,13 @@ header nav {
 
 h2 {
   font-family: 'Yellowtail', cursive;
-  font-size: 2.3em;
+  font-size: 2.4em;
 }
 
 h6 {
+  color: rgb(135, 135, 135);
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: .2em;
+  font-size: .8em;
   margin-left: 5px;
 }
 
@@ -88,7 +85,31 @@ header li {
 }
 
 header li:nth-child(6) {
-margin-right: 12px;
+  margin-right: 12px;
+}
+
+/* Main Section */
+h1 {
+  color: rgb(38, 38, 38);
+  font-family: 'Teko', sans-serif;
+  font-size: 3.3em;
+  font-weight: bold;
+}
+
+h5 {
+  color: rgb(135, 135, 135);
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1em;
+  margin-bottom: 27px;
+}
+
+#print-icon {
+  float: right;
+}
+
+#pizza-image {
+  width: 785px;
+  margin-bottom: 40px;
 }
 
 /* body > header > .title {
