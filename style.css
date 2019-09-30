@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Open+Sans+Condensed:300|Teko|Yellowtail&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=News+Cycle&display=swap');
+
 /* Overall */
 body {
   color: rgb(38, 38, 38);
@@ -77,12 +79,13 @@ h5 {
   margin-bottom: 40px;
 }
 
-p {
+#directions {
   width: 100%;
   font-family: 'IBM Plex Serif', serif;
   font-weight: light;
   line-height: 1.6;
   margin-bottom: 40px;
+  /* text-indent: 50px; */
 }
 
 /* Recipe card */
@@ -109,78 +112,50 @@ input:checked + span {
 }
 
 /* Footer */
+footer {
+  margin-top: 40px;
+}
 
-/* footer {
-  color: rgb(38, 38, 38);
-  margin-top: 3em;
-  position: relative;
-  text-align: center;
-} */
-
-/* footer img {
-  border-left: 1em solid white;
-  border-right: 1em solid white;
-  margin-bottom: 1.5em;
-} */
-
-/* footer:before {
-  border-top: 1px solid #cccccc;
-  content: "";
-  width: 100%;
-  position: absolute;
-  top: 15px;
-  left: 0px;
-  z-index: -1; 
-} */
-
-/* Card and deck layouts */
-/* section.deck {
-  margin: 1em 0;
-  overflow: hidden;
-  width: 100%;
-} */
-
-/* .deck.col-1 .card {
-  width: 100%;
-} */
-
-/* .card .copy p {
-  font-family: serif;
-  font-size: 1.25em;
-  margin: 13em 0;
-  text-indent: 2em;
-} */
-
-/* Cards lined horizontally */
-/* .card.horizontal-content {
-  overflow: hidden;
-} */
-
-/* .card.horizontal-content figure {
+#vanessa-img {
   float: left;
-} */
+  margin-right: 10px;
+}
 
-/* .card.horizontal-content .links {
+#footer-text {
+  /* border: solid green 1px; */
   float: right;
-} */
-
-/* .card.horizontal-content .copy {
-  float: left;
-  font-size: 1.1em;
-  padding: 0 2em;
-  width: calc(100% - 150px - 75px);
-} */
-
-/* Cards using their "img" as background */
-/* .card.bgimage {
-  position: relative;
-} */
-
-/* .card.bgimage figure {
-  bottom: 0;
-  left: 0;
+  display: inline;
   position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -1;
-} */
+  width: 60%;
+}
+
+button {
+  background-color: #BC7060;
+  font-family: 'News Cycle', sans-serif;
+  font-weight: light;
+  color: white;
+  font-size: 1em;
+  width: 150px;
+  height: 45px;
+  float: right;
+}
+
+#footer-rights{
+
+}
+
+h3 {
+  /* color: rgb(135, 135, 135); */
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 1.2em;
+  margin: 0 0 10px 0;
+  /* display: inline; */
+  /* font-weight: bold; */
+}
+
+p {
+  font-size: .95em;
+  display: inline;
+  margin: 0 0 10px;
+
+} 
