@@ -122,11 +122,11 @@ footer {
 }
 
 #footer-text {
-  /* border: solid green 1px; */
   float: right;
   display: inline;
   position: absolute;
   width: 60%;
+
 }
 
 button {
@@ -140,22 +140,14 @@ button {
   float: right;
 }
 
-#footer-rights{
-
-}
-
 h3 {
-  /* color: rgb(135, 135, 135); */
   font-family: 'IBM Plex Serif', serif;
   font-size: 1.2em;
   margin: 0 0 10px 0;
-  /* display: inline; */
-  /* font-weight: bold; */
 }
 
 p {
   font-size: .95em;
   display: inline;
   margin: 0 0 10px;
-
-} 
+}
